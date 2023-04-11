@@ -1,0 +1,39 @@
+export const linkMock = [
+    {
+        nome:'Home',
+        href:'https://www.uniacademia.edu.br/'
+    },
+    {
+        nome:'Insitucional',
+        href:'https://www.uniacademia.edu.br/institucional/sobre-nos'
+    },
+    {
+        nome:'Campi',
+        href:'https://www.uniacademia.edu.br/unidade/academia'
+    },
+    {
+        nome:'Cursos',
+        href:'https://www.uniacademia.edu.br/cursos'
+    },
+    {
+        nome:'Serviços',
+        href:'https://www.uniacademia.edu.br/institucional/biblioteca'
+    },
+    {
+        nome:'Acesso',
+        href:'https://portal.svdesdeva.com.br/modulos/aluno/login.php5'
+    },
+    {
+        nome:'Informação',
+        href:'https://www.uniacademia.edu.br/noticias'
+    },
+    {
+        nome:'Blog',
+        href:'https://www.uniacademia.edu.br/blog'
+    },
+    {
+        nome:'Contato',
+        href:'https://www.uniacademia.edu.br/contato'
+    },
+
+]
