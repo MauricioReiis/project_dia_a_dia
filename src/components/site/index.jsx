@@ -11,8 +11,6 @@ const Site = () => {
             <Header/>
             <Main/>
             <Footer/>
-        {/* <Button children='alou' />
-        <Link href='google.com.br' children='clique em mim' /> */}
         </>
     );
 }

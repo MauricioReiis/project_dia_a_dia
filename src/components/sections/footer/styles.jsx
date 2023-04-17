@@ -13,6 +13,11 @@ export const Wrapper = styled.div`
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 `
 
 export const Logos = styled.div`
@@ -34,6 +39,11 @@ export const Image = styled.img`
 
 export const Insitucional = styled.div`
     background-color: #ffffff;
+
+    @media (max-width: 768px) {
+        margin-top: 1.25rem;
+        justify-content: center;
+    }
 `
 
 export const Acesso = styled.div`
@@ -45,19 +55,18 @@ export const Servicos = styled.div`
 `
 
 export const Title = styled.h2`
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #3b3a3a;
 `
 
 export const Text = styled.p`
     width: auto;
-    font-size: 16px;
+    font-size: 1rem;
     color: #777676;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     cursor: pointer;
 
     &:hover {
-
         text-decoration: underline;
     }
 `

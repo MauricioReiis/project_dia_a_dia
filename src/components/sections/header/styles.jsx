@@ -46,6 +46,10 @@ export const ButtonHeader = styled(Button)`
         cursor: pointer;
         box-shadow: 0px 5px 20px 0px #2583fd;
     }
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 `
 
 export const Image = styled.img`
